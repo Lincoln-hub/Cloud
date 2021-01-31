@@ -49,9 +49,9 @@
     				</tr>
     				@foreach($songs as $song)
         				<tr>
-        					<td>{{$song->artist}}</td>
-        					<td>{{$song->song}}</td>
-        					<td>{{$song->genre}}</td>
+        					<td>{{$song->Artist}}</td>
+        					<td>{{$song->Song}}</td>
+        					<td>{{$song->Genre}}</td>
         				</tr>
         			@endforeach
     			</table>
