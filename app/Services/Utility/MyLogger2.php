@@ -16,7 +16,7 @@ class MyLogger2 implements ILoggerService
         if(self::$logger == null)
         {
             self::$logger = new Logger('logger');
-            self::$logger->pushHandler(new LogglyHandler('[LOGGLY TOKEN]/tag/cst323_logfile_heroku_upload',Logger::DEBUG));
+            self::$logger->pushHandler(new LogglyHandler('73284c7f-1d2d-4dd3-a485-8820ba9d3300/tag/cst323_logfile_heroku_upload',Logger::DEBUG));
         }
         return self::$logger;
     }
