@@ -22,6 +22,7 @@ Route::get('/',[
     'as'=>'songs.show'
 ]);
 
+
 Route::post('/create',[
     'uses'=>'SongController@create',
     'as'=>'songs.create'
