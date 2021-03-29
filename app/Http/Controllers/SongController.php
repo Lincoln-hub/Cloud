@@ -28,7 +28,7 @@ class SongController extends Controller
         
         $song->save();
         MyLogger::info("Exiting the create() function in the song controller! ");
-        MyLogger::info("Exiting the create() function in the song controller! ");
+        MyLogger2::info("Exiting the create() function in the song controller! ");
         return redirect()->back();
         
     }
