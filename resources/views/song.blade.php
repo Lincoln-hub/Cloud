@@ -35,7 +35,7 @@
     				</div>
     				<div class="row form-group">
     					<div class="col-md-12">
-    						<button type ="submit" class="btn btn-success w-50 float-right">Create</button>
+    						<button type ="submit" class="btn btn-success w-50 float-right">Add Song</button>
     					</div>
     				</div>
     			</form>
