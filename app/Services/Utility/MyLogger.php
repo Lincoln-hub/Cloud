@@ -2,7 +2,6 @@
 namespace App\Services\Utility;
 
 use Monolog\Logger;
-use Monolog\Handler\LogglyHandler;
 use Monolog\Handler\StreamHandler;
 
 class MyLogger implements ILoggerService

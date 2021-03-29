@@ -11,7 +11,7 @@ class MyLogger2 implements ILoggerService
     private static $logger = null;
    
 
-    public static function getLogger()
+    static function getLogger()
     {
         if(self::$logger == null)
         {
