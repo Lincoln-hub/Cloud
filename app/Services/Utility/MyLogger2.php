@@ -3,12 +3,12 @@ namespace App\Services\Utility;
 
 use Monolog\Logger;
 use Monolog\Handler\LogglyHandler;
-use Monolog\Handler\StreamHandler;
+
 
 class MyLogger2 implements ILoggerService
 {
     
-    private static $logger =null;
+    private static $logger = null;
    
 
     public static function getLogger()
